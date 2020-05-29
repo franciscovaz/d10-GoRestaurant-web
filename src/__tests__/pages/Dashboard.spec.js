@@ -8,6 +8,8 @@ import Dashboard from '../../pages/Dashboard';
 
 const apiMock = new AxiosMock(api);
 
+// extensão que vinha: Dashboard.test.tsx
+
 describe('Dashboard', () => {
   it('should be able to list all the food plates from your api', async () => {
     apiMock.onGet('foods').reply(200, [
