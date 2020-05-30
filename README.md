@@ -40,3 +40,7 @@
 ## 📸 Preview
 
 ![GoRestaurant GIF](imgs/goRestaurant.gif)
+
+<br />
+
+![image](imgs/tests.png)
