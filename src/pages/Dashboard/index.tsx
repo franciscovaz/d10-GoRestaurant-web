@@ -52,14 +52,28 @@ const Dashboard: React.FC = () => {
     food: Omit<IFoodPlate, 'id' | 'available'>,
   ): Promise<void> {
     // TODO UPDATE A FOOD PLATE ON THE API
+
+    // para ter o ID e o available
+    const foodToEdit = foods.find(
+      foodToFind => foodToFind.id === editingFood.id,
+    );
+
+    const foodsWidhoutFoodToEdit = foods.filter(
+      foodToRemove => foodToRemove.id !== editingFood.id,
+    );
+
+    if (foodToEdit) {
+      const { id, available } = foodToEdit;
+
+      setFoods([...foodsWidhoutFoodToEdit, { id, ...food, available }]);
+    }
   }
 
   async function handleDeleteFood(id: number): Promise<void> {
     // TODO DELETE A FOOD PLATE FROM THE API
+    const updatedWithDeleteFoods = foods.filter(food => food.id !== id);
 
-    const updatedFoods = foods.filter(food => food.id !== id);
-
-    setFoods(updatedFoods);
+    setFoods(updatedWithDeleteFoods);
   }
 
   function toggleModal(): void {
