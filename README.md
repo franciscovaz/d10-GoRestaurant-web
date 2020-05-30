@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/11545976/83309239-22b09c00-a1df-11ea-844a-505917f4859f.png">
+  ![GoRestaurant GIF](gif/goRestaurant.gif)
 </h1>
 
 <h3 align="center">
@@ -21,7 +21,7 @@
 
 ---
 
-## 💻 Execute project
+## 💻 Execute Project
 
 ```bash
   # clone repository
@@ -41,6 +41,6 @@
 
 ## 📸 Preview
 
-<!-- <h1 align="center">
-  <img src="">
-</h1> -->
+<h1 align="center">
+  ![image](gif/goRestaurant.png)
+</h1>
