@@ -1,5 +1,5 @@
 <h1 align="center">
-  ![GoRestaurant GIF](gif/goRestaurant.gif)
+  ![image](gif/goRestaurant.png)
 </h1>
 
 <h3 align="center">
@@ -42,5 +42,5 @@
 ## 📸 Preview
 
 <h1 align="center">
-  ![image](gif/goRestaurant.png)
+  ![GoRestaurant GIF](gif/goRestaurant.gif)
 </h1>
