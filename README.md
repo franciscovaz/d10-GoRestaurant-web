@@ -1,4 +1,4 @@
-![image](gif/goRestaurant.png)
+![image](imgs/goRestaurant.png)
 
 <h3 align="center">
    Challenge 10: GoRestaurant Web | GoStack11
@@ -40,5 +40,5 @@
 ## 📸 Preview
 
 <h1 align="center">
-  ![GoRestaurant GIF](gif/goRestaurant.gif)
+  ![GoRestaurant GIF](imgs/goRestaurant.gif)
 </h1>
