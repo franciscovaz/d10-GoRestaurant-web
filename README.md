@@ -39,6 +39,4 @@
 
 ## 📸 Preview
 
-<h1 align="center">
-  ![GoRestaurant GIF](imgs/goRestaurant.gif)
-</h1>
+![GoRestaurant GIF](imgs/goRestaurant.gif)
