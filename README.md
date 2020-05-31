@@ -14,8 +14,9 @@
 - ReactJS
 - Typescript
 - styled-components
+- React Icons
 - Axios
-- Tests
+- Jest
 
 ---
 
