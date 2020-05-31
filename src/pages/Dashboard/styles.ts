@@ -9,6 +9,13 @@ export const FoodsContainer = styled.div`
 
   display: grid;
 
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
   grid-gap: 32px;
+
+  object-fit: cover;
+
+  @media (max-width: 940px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
